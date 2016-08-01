@@ -1,1 +1,1 @@
-git subtree pull --prefix=models models master --squash
+git subtree pull --prefix=public public master --squash

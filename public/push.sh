@@ -1,1 +1,1 @@
-git subtree push --prefix=models models master
+git subtree push --prefix=public public master
