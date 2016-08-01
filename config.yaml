@@ -3,11 +3,22 @@ contentdir: "content"
 layoutdir: "layouts"
 publishdir: "public"
 indexes:
-      category: "categories"
+    category: "categories"
+    test: "test"
 baseurl: "http://0987363.github.io"
 title: "heifeng Blog"
 canonifyurls: true
 copyright: "&copy; 2016. All rights reserved."
 paginate: 10
-theme: "hugo-bootstrap-premium"
+theme: "beg"
+params:
+    disqusShortname: "your disqus id." # optional
+    toc: true # optional, When set to TRUE this parameter, table of contents appears in all articles.
+
+category:
+    golang: "golang"
+    docker: "docker"
+
+test:
+    tt1: "tt1"
 ...
