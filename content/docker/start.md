@@ -18,3 +18,5 @@ toc = true # optional, When set to TRUE this parameter, table of contents appear
 +++
 
 Contents here
+
+![screenshot](https://raw.githubusercontent.com/dim0627/hugo_theme_beg/master/images/screenshot.png)
