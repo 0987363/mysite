@@ -1,0 +1,13 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+      category: "categories"
+baseurl: "http://0987363.github.io"
+title: "heifeng Blog"
+canonifyurls: true
+copyright: "&copy; 2016. All rights reserved."
+paginate: 10
+theme: "hugo-bootstrap-premium"
+...
