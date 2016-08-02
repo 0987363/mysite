@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mongodbs on heifeng Blog</title>
+    <link>http://0987363.github.io/mongodb/</link>
+    <description>Recent content in Mongodbs on heifeng Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://0987363.github.io/mongodb/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>通过mgo用正则表达式搜索mongodb</title>
+      <link>http://0987363.github.io/mongodb/regex/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/mongodb/regex/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;c.Find(bson.M{&amp;quot;abc&amp;quot;: &amp;amp;bson.RegEx{Pattern: &amp;quot;abc&amp;quot;, Options: &amp;quot;i&amp;quot;}})
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

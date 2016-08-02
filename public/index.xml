@@ -10,11 +10,11 @@
     <atom:link href="http://0987363.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Api Http Response Code</title>
-      <link>http://0987363.github.io/restapi/httpcode/</link>
+      <title>RESTApi 返回 Http Code</title>
+      <link>http://0987363.github.io/http/httpcode/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://0987363.github.io/restapi/httpcode/</guid>
+      <guid>http://0987363.github.io/http/httpcode/</guid>
       <description>
 
 &lt;h2 id=&#34;9-5-post&#34;&gt;9.5 POST&lt;/h2&gt;
@@ -36,6 +36,41 @@ A successful response SHOULD be 200 (OK) if the response includes an entity desc
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://0987363.github.io/whhD1.png&#34; alt=&#34;full&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>在goji中跨域</title>
+      <link>http://0987363.github.io/http/cors/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/http/cors/</guid>
+      <description>
+
+&lt;h2 id=&#34;最近用goji框架-当前端是web的时候-跨域请求&#34;&gt;最近用goji框架，当前端是web的时候，跨域请求:&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;import &amp;quot;github.com/rs/cors&amp;quot;
+
+c := cors.New(cors.Options{
+    AllowedOrigins: []string{&amp;quot;http://www.github.com&amp;quot;, &amp;quot;http://xxx.com&amp;quot;},
+    AllowedMethods: []string{&amp;quot;POST&amp;quot;, &amp;quot;GET&amp;quot;, &amp;quot;UPDATE&amp;quot;, &amp;quot;DELETE&amp;quot;, &amp;quot;PUT&amp;quot;},
+    AllowedHeaders: []string{&amp;quot;X-XXX-Authentication&amp;quot;, &amp;quot;Content-Type&amp;quot;, &amp;quot;Origin&amp;quot;, &amp;quot;Accept-Language&amp;quot;, &amp;quot;Accept&amp;quot;},
+    ExposedHeaders: []string{&amp;quot;X-XXX-Authentication&amp;quot;},
+})  
+v1Mux.Use(c.Handler)
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>通过mgo用正则表达式搜索mongodb</title>
+      <link>http://0987363.github.io/mongodb/regex/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/mongodb/regex/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;c.Find(bson.M{&amp;quot;abc&amp;quot;: &amp;amp;bson.RegEx{Pattern: &amp;quot;abc&amp;quot;, Options: &amp;quot;i&amp;quot;}})
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

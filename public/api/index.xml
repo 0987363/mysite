@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Restapis on heifeng Blog</title>
-    <link>http://0987363.github.io/restapi/</link>
-    <description>Recent content in Restapis on heifeng Blog</description>
+    <title>Apis on heifeng Blog</title>
+    <link>http://0987363.github.io/api/</link>
+    <description>Recent content in Apis on heifeng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://0987363.github.io/restapi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://0987363.github.io/api/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Api Http Response Code</title>
-      <link>http://0987363.github.io/restapi/httpcode/</link>
+      <title>RESTApi 返回 Http Code</title>
+      <link>http://0987363.github.io/api/httpcode/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://0987363.github.io/restapi/httpcode/</guid>
+      <guid>http://0987363.github.io/api/httpcode/</guid>
       <description>
 
 &lt;h2 id=&#34;9-5-post&#34;&gt;9.5 POST&lt;/h2&gt;

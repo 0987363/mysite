@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.17-DEV" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <link rel="stylesheet" href="http://0987363.github.iocss/styles.css">
+    <link rel="stylesheet" href="http://0987363.github.iocss/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://0987363.github.io/index.xml">
+
+    
+    <title>RESTApi 返回 Http Code - heifeng Blog</title>
+    <meta property='og:title' content="RESTApi 返回 Http Code - heifeng Blog">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="http://0987363.github.io/http/httpcode/">
+    <meta name="description" content="post, put, delete 返回 http code">
+    
+
+  </head>
+
+  <body>
+
+    <header class="site">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://0987363.github.io">heifeng Blog</a>
+          </div>
+
+          <div id="navbar" class="collapse navbar-collapse">
+            
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <div class="site">
+      <div class="container">
+
+
+
+<div class="single">
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="http://0987363.github.io"/>
+        <meta itemprop="dateModified" content="2016-08-02T00:00:00&#43;00:00">
+        <meta itemprop="headline" content="RESTApi 返回 Http Code">
+        <meta itemprop="description" content="9.5 POST A successful response SHOULD be 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has not yet been enacted, or 204 (No Content) if the action has been enacted but the response does not include an entity. 9.6 PUT If an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes &gt; SHOULD be sent to indicate successful completion of the request.">
+        <meta itemprop="url" content="http://0987363.github.io/http/httpcode/">
+        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="http://0987363.github.ioimages/default.jpg" />
+          <meta itemprop="width" content="800">
+          <meta itemprop="height" content="800">
+        </div>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="http://0987363.github.ioimages/logo.jpg">
+            <meta itemprop="width" content="100">
+            <meta itemprop="height" content="100">
+          </div>
+          <meta itemprop="name" content="heifeng Blog">
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="">
+        </div>
+
+        <header class="article-header">
+          <time itemprop="datePublished" pubdate="pubdate" datetime="2016-08-02T00:00:00&#43;00:00">Tue, Aug 2, 2016</time>
+          <h1 class="article-title">RESTApi 返回 Http Code</h1>
+        </header>
+
+        <div class="article-body" itemprop="articleBody">
+          
+
+<h2 id="9-5-post">9.5 POST</h2>
+
+<p><code>
+A successful response SHOULD be 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has not yet been enacted, or 204 (No Content) if the action has been enacted but the response does not include an entity. 
+</code></p>
+
+<h2 id="9-6-put">9.6 PUT</h2>
+
+<p><code>
+If an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes &gt; SHOULD be sent to indicate successful completion of the request.
+</code></p>
+
+<h2 id="9-7-delete">9.7 DELETE</h2>
+
+<p><code>
+A successful response SHOULD be 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has not yet been enacted, or 204 (No Content) if the action has been enacted but the response does not include an entity.
+</code></p>
+
+<p><img src="http://0987363.github.io/whhD1.png" alt="full" /></p>
+
+        </div>
+
+
+        <aside>
+          <div class="section"><a href="http://0987363.github.iotags/http" class="tag">http</a> <a href="http://0987363.github.iotags/api" class="tag">api</a> <a href="http://0987363.github.iotags/development" class="tag">development</a> </div>
+
+          <div class="section share">
+            <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2f0987363.github.io%2fhttp%2fhttpcode%2f&t=RESTApi%20%e8%bf%94%e5%9b%9e%20Http%20Code" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2f0987363.github.io%2fhttp%2fhttpcode%2f&text=RESTApi%20%e8%bf%94%e5%9b%9e%20Http%20Code&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/share?url=http%3a%2f%2f0987363.github.io%2fhttp%2fhttpcode%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+            <a href="http://getpocket.com/edit?url=http%3a%2f%2f0987363.github.io%2fhttp%2fhttpcode%2f&title=RESTApi%20%e8%bf%94%e5%9b%9e%20Http%20Code" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+          </div>
+
+          
+          
+          
+        </aside>
+
+      </article>
+
+    </div>
+    <div class="col-md-4">
+      
+<aside class="site">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">LatestPosts</h2>
+    </div>
+    <div class="list-group">
+      
+      <a href="http://0987363.github.io/http/httpcode/" class="list-group-item">RESTApi 返回 Http Code</a>
+      
+      <a href="http://0987363.github.io/http/cors/" class="list-group-item">在goji中跨域</a>
+      
+      <a href="http://0987363.github.io/mongodb/regex/" class="list-group-item">通过mgo用正则表达式搜索mongodb</a>
+      
+    </div>
+  </div>
+
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">category</h2>
+    </div>
+    <div class="list-group">
+      
+      <a href="http://0987363.github.iocategories/development" class="list-group-item">development</a>
+      
+      <a href="http://0987363.github.iocategories/golang" class="list-group-item">golang</a>
+      
+      <a href="http://0987363.github.iocategories/api" class="list-group-item">api</a>
+      
+      <a href="http://0987363.github.iocategories/goji" class="list-group-item">goji</a>
+      
+      <a href="http://0987363.github.iocategories/mongodb" class="list-group-item">mongodb</a>
+      
+    </div>
+  </div>
+  
+
+</aside>
+
+
+    </div>
+  </div>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site">
+      <div class="container">
+        <p>&copy; 2016. All rights reserved.</p>
+        <p>Powered by <a href="http://gohugo.io" target="_blank" rel="nofollow">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_beg" target="_blank" rel="nofollow">beg</a> designed by <a href="http://yet.unresolved.xyz" target="_blank" rel="nofollow">Daisuke Tsuji</a></p>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
+  </body>
+</html>
+

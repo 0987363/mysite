@@ -14,12 +14,12 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://0987363.github.io/index.xml">
 
     
-    <title>Api - heifeng Blog</title>
-    <meta property='og:title' content="Api - heifeng Blog">
+    <title>Goji - heifeng Blog</title>
+    <meta property='og:title' content="Goji - heifeng Blog">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="http://0987363.github.io/categories/api/">
+    <meta property="og:url" content="http://0987363.github.io/categories/goji/">
     
     
 
@@ -56,20 +56,31 @@
 
   <div class="row">
     <div class="col-md-8">
-      <header class="page-title">Api</header>
+      <header class="page-title">Goji</header>
 
       
       <article class="li">
   <header>
     <div class="date">Tue, Aug 2, 2016</div>
-    <div class="title"><a href="http://0987363.github.io/http/httpcode/">RESTApi 返回 Http Code</a></div>
+    <div class="title"><a href="http://0987363.github.io/http/cors/">在goji中跨域</a></div>
   </header>
-  <div class="body">9.5 POST A successful response SHOULD be 200 (OK) if the response includes an entity describing the status, 202 (Accepted) if the action has not yet been enacted, or 204 (No Content) if the action has been enacted but the response does not include an entity. 9.6 PUT If an existing resource is modified, either the 200 (OK) or 204 (No Content) response codes &gt; SHOULD be sent to indicate successful completion of the request.</div>
+  <div class="body">
 
-  
-  <footer>
-    <a href="http://0987363.github.io/http/httpcode/" class="btn btn-default">Read More…</a>
-  </footer>
+<h2 id="最近用goji框架-当前端是web的时候-跨域请求">最近用goji框架，当前端是web的时候，跨域请求:</h2>
+
+<pre><code class="language-golang">import &quot;github.com/rs/cors&quot;
+
+c := cors.New(cors.Options{
+    AllowedOrigins: []string{&quot;http://www.github.com&quot;, &quot;http://xxx.com&quot;},
+    AllowedMethods: []string{&quot;POST&quot;, &quot;GET&quot;, &quot;UPDATE&quot;, &quot;DELETE&quot;, &quot;PUT&quot;},
+    AllowedHeaders: []string{&quot;X-XXX-Authentication&quot;, &quot;Content-Type&quot;, &quot;Origin&quot;, &quot;Accept-Language&quot;, &quot;Accept&quot;},
+    ExposedHeaders: []string{&quot;X-XXX-Authentication&quot;},
+})  
+v1Mux.Use(c.Handler)
+
+</code></pre>
+</div>
+
   
 </article>
 <hr>

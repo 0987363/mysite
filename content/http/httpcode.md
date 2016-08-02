@@ -1,6 +1,6 @@
 +++
-title = "Api Http Response Code"
-description = "post, put, delete请求返回http code"
+title = "RESTApi 返回 Http Code"
+description = "post, put, delete 返回 http code"
 tags = [
     "http",
     "api",

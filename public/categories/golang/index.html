@@ -61,12 +61,38 @@
       
       <article class="li">
   <header>
-    <div class="date">Wed, Apr 2, 2014</div>
-    <div class="title"><a href="http://0987363.github.io/docker/start/">Getting Started with Hugo</a></div>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/http/cors/">在goji中跨域</a></div>
   </header>
-  <div class="body"><p>Contents here</p>
+  <div class="body">
 
-<p><img src="https://raw.githubusercontent.com/dim0627/hugo_theme_beg/master/images/screenshot.png" alt="screenshot" /></p>
+<h2 id="最近用goji框架-当前端是web的时候-跨域请求">最近用goji框架，当前端是web的时候，跨域请求:</h2>
+
+<pre><code class="language-golang">import &quot;github.com/rs/cors&quot;
+
+c := cors.New(cors.Options{
+    AllowedOrigins: []string{&quot;http://www.github.com&quot;, &quot;http://xxx.com&quot;},
+    AllowedMethods: []string{&quot;POST&quot;, &quot;GET&quot;, &quot;UPDATE&quot;, &quot;DELETE&quot;, &quot;PUT&quot;},
+    AllowedHeaders: []string{&quot;X-XXX-Authentication&quot;, &quot;Content-Type&quot;, &quot;Origin&quot;, &quot;Accept-Language&quot;, &quot;Accept&quot;},
+    ExposedHeaders: []string{&quot;X-XXX-Authentication&quot;},
+})  
+v1Mux.Use(c.Handler)
+
+</code></pre>
+</div>
+
+  
+</article>
+<hr>
+
+      
+      <article class="li">
+  <header>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/mongodb/regex/">通过mgo用正则表达式搜索mongodb</a></div>
+  </header>
+  <div class="body"><pre><code>c.Find(bson.M{&quot;abc&quot;: &amp;bson.RegEx{Pattern: &quot;abc&quot;, Options: &quot;i&quot;}})
+</code></pre>
 </div>
 
   
@@ -88,11 +114,11 @@
     </div>
     <div class="list-group">
       
-      <a href="http://0987363.github.io/restapi/httpcode/" class="list-group-item">rest api http response code</a>
+      <a href="http://0987363.github.io/http/httpcode/" class="list-group-item">RESTApi 返回 Http Code</a>
       
-      <a href="http://0987363.github.io/docker/start/" class="list-group-item">Getting Started with Hugo</a>
+      <a href="http://0987363.github.io/http/cors/" class="list-group-item">在goji中跨域</a>
       
-      <a href="http://0987363.github.io/post/newest/" class="list-group-item">Just another sample post</a>
+      <a href="http://0987363.github.io/mongodb/regex/" class="list-group-item">通过mgo用正则表达式搜索mongodb</a>
       
     </div>
   </div>
@@ -106,15 +132,13 @@
       
       <a href="http://0987363.github.iocategories/development" class="list-group-item">development</a>
       
-      <a href="http://0987363.github.iocategories/fun" class="list-group-item">fun</a>
-      
       <a href="http://0987363.github.iocategories/golang" class="list-group-item">golang</a>
       
-      <a href="http://0987363.github.iocategories/hugo" class="list-group-item">hugo</a>
+      <a href="http://0987363.github.iocategories/api" class="list-group-item">api</a>
       
-      <a href="http://0987363.github.iocategories/restapi" class="list-group-item">restapi</a>
+      <a href="http://0987363.github.iocategories/goji" class="list-group-item">goji</a>
       
-      <a href="http://0987363.github.iocategories/test" class="list-group-item">test</a>
+      <a href="http://0987363.github.iocategories/mongodb" class="list-group-item">mongodb</a>
       
     </div>
   </div>

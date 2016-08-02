@@ -7,7 +7,17 @@
   </url>
   
   <url>
-    <loc>http://0987363.github.io/restapi/httpcode/</loc>
+    <loc>http://0987363.github.io/http/httpcode/</loc>
+    <lastmod>2016-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://0987363.github.io/http/cors/</loc>
+    <lastmod>2016-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://0987363.github.io/mongodb/regex/</loc>
     <lastmod>2016-08-02T00:00:00+00:00</lastmod>
   </url>
   

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on heifeng Blog</title>
-    <link>http://0987363.github.io/categories/golang/</link>
-    <description>Recent content in Golang on heifeng Blog</description>
+    <title>Goji on heifeng Blog</title>
+    <link>http://0987363.github.io/categories/goji/</link>
+    <description>Recent content in Goji on heifeng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://0987363.github.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://0987363.github.io/categories/goji/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>在goji中跨域</title>
@@ -29,17 +29,6 @@ c := cors.New(cors.Options{
 })  
 v1Mux.Use(c.Handler)
 
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>通过mgo用正则表达式搜索mongodb</title>
-      <link>http://0987363.github.io/mongodb/regex/</link>
-      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://0987363.github.io/mongodb/regex/</guid>
-      <description>&lt;pre&gt;&lt;code&gt;c.Find(bson.M{&amp;quot;abc&amp;quot;: &amp;amp;bson.RegEx{Pattern: &amp;quot;abc&amp;quot;, Options: &amp;quot;i&amp;quot;}})
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
