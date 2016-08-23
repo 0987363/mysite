@@ -10,15 +10,15 @@
     <atom:link href="http://0987363.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>mongodb ����ƥ��options</title>
+      <title>mongodb 正则匹配options</title>
       <link>http://0987363.github.io/mongodb/options/</link>
       <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>http://0987363.github.io/mongodb/options/</guid>
       <description>&lt;pre&gt;&lt;code&gt;options:
-i:  case-insensitive, �����ִ�Сд
-m: ƥ����
-^: ƥ��һ�п�ͷ
+i:  case-insensitive, 不区分大小写
+m: 匹配多个
+^: 匹配一行开头
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

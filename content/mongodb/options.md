@@ -1,5 +1,5 @@
 +++
-title = "mongodb ÕıÔòÆ¥Åäoptions"
+title = "mongodb æ­£åˆ™åŒ¹é…options"
 description = ""
 tags = [
     "mongo",
@@ -15,8 +15,9 @@ categories = [
 
 ```
 options:
-i:  case-insensitive, ²»Çø·Ö´óĞ¡Ğ´
-m: Æ¥Åä¶à¸ö
-^: Æ¥ÅäÒ»ĞĞ¿ªÍ·
+i:  case-insensitive, ä¸åŒºåˆ†å¤§å°å†™
+m: åŒ¹é…å¤šä¸ª
+^: åŒ¹é…ä¸€è¡Œå¼€å¤´
 ```
+
 
