@@ -1,5 +1,5 @@
 +++
-title = "批量重命名rename"
+title = "鎵归噺閲嶅懡鍚峳ename"
 description = ""
 tags = [
     "rename",
@@ -12,7 +12,7 @@ categories = [
 
 +++
 
-批量重命名执行rename，perl版本
+鎵归噺閲嶅懡鍚嶆墽琛宺ename锛宲erl鐗堟湰
 
 ```
 rename -v 's/hhk/-/' *.wmv

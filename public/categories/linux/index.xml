@@ -20,12 +20,12 @@
     </item>
     
     <item>
-      <title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rename</title>
+      <title>æ‰¹é‡é‡å‘½årename</title>
       <link>http://0987363.github.io/linux/Rename/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>http://0987363.github.io/linux/Rename/</guid>
-      <description>&lt;p&gt;ÅúÁ¿ÖØÃüÃûÖ´ĞĞrename£¬perl°æ±¾&lt;/p&gt;
+      <description>&lt;p&gt;æ‰¹é‡é‡å‘½åæ‰§è¡Œrenameï¼Œperlç‰ˆæœ¬&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;rename -v &#39;s/hhk/-/&#39; *.wmv
 &lt;/code&gt;&lt;/pre&gt;
