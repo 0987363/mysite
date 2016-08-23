@@ -20,12 +20,12 @@
     </item>
     
     <item>
-      <title>nfs杩滅▼鎸傝浇鎶ラ敊锛歄peration not permitted</title>
+      <title>nfs远程挂载报错：Operation not permitted</title>
       <link>http://0987363.github.io/linux/NfsOperNiotPermitted/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>http://0987363.github.io/linux/NfsOperNiotPermitted/</guid>
-      <description>&lt;p&gt;杩滅▼鎸傝浇nfs鐨勬椂鍊欐姤閿欙紝鎻愮ずOperation not permitted锛屽姞鍏-o resvport`鍗冲彲.&lt;/p&gt;
+      <description>&lt;p&gt;远程挂载nfs的时候报错，提示Operation not permitted，加入&lt;code&gt;-o resvport&lt;/code&gt;即可.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media
 &lt;/code&gt;&lt;/pre&gt;

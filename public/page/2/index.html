@@ -76,9 +76,9 @@
       <article class="li">
   <header>
     <div class="date">Tue, Aug 2, 2016</div>
-    <div class="title"><a href="http://0987363.github.io/linux/NfsOperNiotPermitted/">nfs杩滅▼鎸傝浇鎶ラ敊锛歄peration not permitted</a></div>
+    <div class="title"><a href="http://0987363.github.io/linux/NfsOperNiotPermitted/">nfs远程挂载报错：Operation not permitted</a></div>
   </header>
-  <div class="body"><p>杩滅▼鎸傝浇nfs鐨勬椂鍊欐姤閿欙紝鎻愮ずOperation not permitted锛屽姞鍏-o resvport`鍗冲彲.</p>
+  <div class="body"><p>远程挂载nfs的时候报错，提示Operation not permitted，加入<code>-o resvport</code>即可.</p>
 
 <pre><code>sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media
 </code></pre>
@@ -152,7 +152,7 @@ v1Mux.Use(c.Handler)
       
       <a href="http://0987363.github.io/http/httpcode/" class="list-group-item">RESTApi 返回 Http Code</a>
       
-      <a href="http://0987363.github.io/linux/NfsOperNiotPermitted/" class="list-group-item">nfs杩滅▼鎸傝浇鎶ラ敊锛歄peration not permitted</a>
+      <a href="http://0987363.github.io/linux/NfsOperNiotPermitted/" class="list-group-item">nfs远程挂载报错：Operation not permitted</a>
       
       <a href="http://0987363.github.io/http/cors/" class="list-group-item">在goji中跨域</a>
       
