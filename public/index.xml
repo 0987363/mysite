@@ -40,6 +40,19 @@ A successful response SHOULD be 200 (OK) if the response includes an entity desc
     </item>
     
     <item>
+      <title>nfs远程挂载报错：Operation not permitted</title>
+      <link>http://0987363.github.io/linux/NfsOperNiotPermitted/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/linux/NfsOperNiotPermitted/</guid>
+      <description>&lt;p&gt;远程挂载nfs的时候报错，提示Operation not permitted，加入&lt;code&gt;-o resvport&lt;/code&gt;即可.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>在goji中跨域</title>
       <link>http://0987363.github.io/http/cors/</link>
       <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
@@ -59,6 +72,17 @@ c := cors.New(cors.Options{
 })  
 v1Mux.Use(c.Handler)
 
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>搜索文件内容，然后去重复，复制</title>
+      <link>http://0987363.github.io/linux/FindAndSearch/</link>
+      <pubDate>Tue, 02 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/linux/FindAndSearch/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;find . -name &amp;quot;*JULIA*&amp;quot; | awk -F &amp;quot;/&amp;quot; &#39;{print $2}&#39; | uniq | xargs -i cp -rf {} ~/base/temp
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

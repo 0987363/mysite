@@ -14,12 +14,12 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://0987363.github.io//index.xml">
 
     
-    <title>Categories - heifeng Blog</title>
-    <meta property='og:title' content="Categories - heifeng Blog">
+    <title>Linuxes - heifeng Blog</title>
+    <meta property='og:title' content="Linuxes - heifeng Blog">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="http://0987363.github.io/categories/">
+    <meta property="og:url" content="http://0987363.github.io/linux/">
     
     
 
@@ -52,30 +52,45 @@
       <div class="container">
 
 
-<div class="list terms">
+<div class="list">
 
   <div class="row">
     <div class="col-md-8">
+      <header class="page-title">Linuxes</header>
 
-      <header class="page-title">Categories</header>
+      
+      <article class="li">
+  <header>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/linux/NfsOperNiotPermitted/">nfs远程挂载报错：Operation not permitted</a></div>
+  </header>
+  <div class="body"><p>远程挂载nfs的时候报错，提示Operation not permitted，加入<code>-o resvport</code>即可.</p>
+
+<pre><code>sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media
+</code></pre>
+</div>
+
+  
+</article>
+<hr>
 
       
-      <a href="http://0987363.github.io/categories/api/">api</a>
+      <article class="li">
+  <header>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/linux/FindAndSearch/">搜索文件内容，然后去重复，复制</a></div>
+  </header>
+  <div class="body"><pre><code>find . -name &quot;*JULIA*&quot; | awk -F &quot;/&quot; '{print $2}' | uniq | xargs -i cp -rf {} ~/base/temp
+</code></pre>
+</div>
+
+  
+</article>
+<hr>
+
       
-      <a href="http://0987363.github.io/categories/development/">development</a>
       
-      <a href="http://0987363.github.io/categories/goji/">goji</a>
-      
-      <a href="http://0987363.github.io/categories/golang/">golang</a>
-      
-      <a href="http://0987363.github.io/categories/linux/">linux</a>
-      
-      <a href="http://0987363.github.io/categories/mongodb/">mongodb</a>
-      
-      <a href="http://0987363.github.io/categories/nfs/">nfs</a>
-      
-      <a href="http://0987363.github.io/categories/shell/">shell</a>
-      
+
 
     </div>
     <div class="col-md-4">

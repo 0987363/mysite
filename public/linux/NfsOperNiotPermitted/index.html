@@ -14,12 +14,12 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://0987363.github.io//index.xml">
 
     
-    <title>在goji中跨域 - heifeng Blog</title>
-    <meta property='og:title' content="在goji中跨域 - heifeng Blog">
+    <title>nfs远程挂载报错：Operation not permitted - heifeng Blog</title>
+    <meta property='og:title' content="nfs远程挂载报错：Operation not permitted - heifeng Blog">
     <meta property="og:type" content="article">
     
 
-    <meta property="og:url" content="http://0987363.github.io/http/cors/">
+    <meta property="og:url" content="http://0987363.github.io/linux/NfsOperNiotPermitted/">
     
     
 
@@ -62,9 +62,9 @@
 
         <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="http://0987363.github.io/"/>
         <meta itemprop="dateModified" content="2016-08-02T00:00:00&#43;00:00">
-        <meta itemprop="headline" content="在goji中跨域">
-        <meta itemprop="description" content="最近用goji框架，当前端是web的时候，跨域请求: import &quot;github.com/rs/cors&quot; c := cors.New(cors.Options{ AllowedOrigins: []string{&quot;http://www.github.com&quot;, &quot;http://xxx.com&quot;}, AllowedMethods: []string{&quot;POST&quot;, &quot;GET&quot;, &quot;UPDATE&quot;, &quot;DELETE&quot;, &quot;PUT&quot;}, AllowedHeaders: []string{&quot;X-XXX-Authentication&quot;, &quot;Content-Type&quot;, &quot;Origin&quot;, &quot;Accept-Language&quot;, &quot;Accept&quot;}, ExposedHeaders: []string{&quot;X-XXX-Authentication&quot;}, }) v1Mux.Use(c.Handler)">
-        <meta itemprop="url" content="http://0987363.github.io/http/cors/">
+        <meta itemprop="headline" content="nfs远程挂载报错：Operation not permitted">
+        <meta itemprop="description" content="远程挂载nfs的时候报错，提示Operation not permitted，加入-o resvport即可. sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media">
+        <meta itemprop="url" content="http://0987363.github.io/linux/NfsOperNiotPermitted/">
         <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
           <meta itemprop="url" content="http://0987363.github.io/images/default.jpg" />
           <meta itemprop="width" content="800">
@@ -84,37 +84,26 @@
 
         <header class="article-header">
           <time itemprop="datePublished" pubdate="pubdate" datetime="2016-08-02T00:00:00&#43;00:00">Tue, Aug 2, 2016</time>
-          <h1 class="article-title">在goji中跨域</h1>
+          <h1 class="article-title">nfs远程挂载报错：Operation not permitted</h1>
         </header>
 
         <div class="article-body" itemprop="articleBody">
-          
+          <p>远程挂载nfs的时候报错，提示Operation not permitted，加入<code>-o resvport</code>即可.</p>
 
-<h2 id="最近用goji框架-当前端是web的时候-跨域请求">最近用goji框架，当前端是web的时候，跨域请求:</h2>
-
-<pre><code class="language-golang">import &quot;github.com/rs/cors&quot;
-
-c := cors.New(cors.Options{
-    AllowedOrigins: []string{&quot;http://www.github.com&quot;, &quot;http://xxx.com&quot;},
-    AllowedMethods: []string{&quot;POST&quot;, &quot;GET&quot;, &quot;UPDATE&quot;, &quot;DELETE&quot;, &quot;PUT&quot;},
-    AllowedHeaders: []string{&quot;X-XXX-Authentication&quot;, &quot;Content-Type&quot;, &quot;Origin&quot;, &quot;Accept-Language&quot;, &quot;Accept&quot;},
-    ExposedHeaders: []string{&quot;X-XXX-Authentication&quot;},
-})  
-v1Mux.Use(c.Handler)
-
+<pre><code>sudo mount_nfs -o resvport 192.168.0.100:/mnt/raid1/media /Volumes/media
 </code></pre>
 
         </div>
 
 
         <aside>
-          <div class="section"><a href="http://0987363.github.io/tags/golang" class="tag">golang</a> <a href="http://0987363.github.io/tags/cors" class="tag">cors</a> <a href="http://0987363.github.io/tags/goji" class="tag">goji</a> <a href="http://0987363.github.io/tags/development" class="tag">development</a> </div>
+          <div class="section"><a href="http://0987363.github.io/tags/nfs" class="tag">nfs</a> <a href="http://0987363.github.io/tags/linux" class="tag">linux</a> </div>
 
           <div class="section share">
-            <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2f0987363.github.io%2fhttp%2fcors%2f&t=%e5%9c%a8goji%e4%b8%ad%e8%b7%a8%e5%9f%9f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
-            <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2f0987363.github.io%2fhttp%2fcors%2f&text=%e5%9c%a8goji%e4%b8%ad%e8%b7%a8%e5%9f%9f&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
-            <a href="https://plus.google.com/share?url=http%3a%2f%2f0987363.github.io%2fhttp%2fcors%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
-            <a href="http://getpocket.com/edit?url=http%3a%2f%2f0987363.github.io%2fhttp%2fcors%2f&title=%e5%9c%a8goji%e4%b8%ad%e8%b7%a8%e5%9f%9f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+            <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2f0987363.github.io%2flinux%2fNfsOperNiotPermitted%2f&t=nfs%e8%bf%9c%e7%a8%8b%e6%8c%82%e8%bd%bd%e6%8a%a5%e9%94%99%ef%bc%9aOperation%20not%20permitted" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2f0987363.github.io%2flinux%2fNfsOperNiotPermitted%2f&text=nfs%e8%bf%9c%e7%a8%8b%e6%8c%82%e8%bd%bd%e6%8a%a5%e9%94%99%ef%bc%9aOperation%20not%20permitted&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/share?url=http%3a%2f%2f0987363.github.io%2flinux%2fNfsOperNiotPermitted%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+            <a href="http://getpocket.com/edit?url=http%3a%2f%2f0987363.github.io%2flinux%2fNfsOperNiotPermitted%2f&title=nfs%e8%bf%9c%e7%a8%8b%e6%8c%82%e8%bd%bd%e6%8a%a5%e9%94%99%ef%bc%9aOperation%20not%20permitted" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
           </div>
 
           
