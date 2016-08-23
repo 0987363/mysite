@@ -6,8 +6,31 @@
     <description>Recent content in Linuxes on heifeng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://0987363.github.io/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>nfsÔ¶ï¿½Ì¹ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½Ó¶Ë¿ï¿½Ó³ï¿½ï¿½</title>
+      <link>http://0987363.github.io/linux/NfsRemoteMount/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/linux/NfsRemoteMount/</guid>
+      <description>&lt;p&gt;internetÍøÂç¹ÒÔØnfsµÄÊ±ºò£¬ĞèÒªÌí¼Ó¶Ë¿ÚÓ³Éäµ½Â·ÓÉÆ÷ÉÏ£¬&lt;code&gt;111,2049,924,32767&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rename</title>
+      <link>http://0987363.github.io/linux/Rename/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/linux/Rename/</guid>
+      <description>&lt;p&gt;ÅúÁ¿ÖØÃüÃûÖ´ĞĞrename£¬perl°æ±¾&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rename -v &#39;s/hhk/-/&#39; *.wmv
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>nfsè¿œç¨‹æŒ‚è½½æŠ¥é”™ï¼šOperation not permitted</title>

@@ -59,13 +59,10 @@
       
       <article class="li">
   <header>
-    <div class="date">Tue, Aug 23, 2016</div>
-    <div class="title"><a href="http://0987363.github.io/mongodb/options/">mongodb ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½options</a></div>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/linux/FindAndSearch/">æœç´¢æ–‡ä»¶å†…å®¹ï¼Œç„¶åå»é‡å¤ï¼Œå¤åˆ¶</a></div>
   </header>
-  <div class="body"><pre><code>options:
-i:  case-insensitive, ²»Çø·Ö´óĞ¡Ğ´
-m: Æ¥Åä¶à¸ö
-^: Æ¥ÅäÒ»ĞĞ¿ªÍ·
+  <div class="body"><pre><code>find . -name &quot;*JULIA*&quot; | awk -F &quot;/&quot; '{print $2}' | uniq | xargs -i cp -rf {} ~/base/temp
 </code></pre>
 </div>
 
@@ -76,25 +73,10 @@ m: Æ¥Åä¶à¸ö
       
       <article class="li">
   <header>
-    <div class="date">Thu, Aug 4, 2016</div>
-    <div class="title"><a href="http://0987363.github.io/linux/NfsRemoteMount/">nfsÔ¶ï¿½Ì¹ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½Ó¶Ë¿ï¿½Ó³ï¿½ï¿½</a></div>
+    <div class="date">Tue, Aug 2, 2016</div>
+    <div class="title"><a href="http://0987363.github.io/mongodb/regex/">é€šè¿‡mgoç”¨æ­£åˆ™è¡¨è¾¾å¼æœç´¢mongodb</a></div>
   </header>
-  <div class="body"><p>internetÍøÂç¹ÒÔØnfsµÄÊ±ºò£¬ĞèÒªÌí¼Ó¶Ë¿ÚÓ³Éäµ½Â·ÓÉÆ÷ÉÏ£¬<code>111,2049,924,32767</code></p>
-</div>
-
-  
-</article>
-<hr>
-
-      
-      <article class="li">
-  <header>
-    <div class="date">Thu, Aug 4, 2016</div>
-    <div class="title"><a href="http://0987363.github.io/linux/Rename/">ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½rename</a></div>
-  </header>
-  <div class="body"><p>ÅúÁ¿ÖØÃüÃûÖ´ĞĞrename£¬perl°æ±¾</p>
-
-<pre><code>rename -v 's/hhk/-/' *.wmv
+  <div class="body"><pre><code>c.Find(bson.M{&quot;abc&quot;: &amp;bson.RegEx{Pattern: &quot;abc&quot;, Options: &quot;i&quot;}})
 </code></pre>
 </div>
 
@@ -108,11 +90,11 @@ m: Æ¥Åä¶à¸ö
   <ul class="pager">
 
     
-    <li class="disabled"><a href="#">Previous</a></li>
+    <li><a href="http://0987363.github.io/page/2">Previous</a></li>
     
 
     
-    <li><a href="http://0987363.github.io/page/2">Next</a></li>
+    <li class="disabled"><a href="#">Next</a></li>
     
 
   </ul>

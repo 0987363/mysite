@@ -6,8 +6,18 @@
     <description>Recent content in Nfs on heifeng Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 02 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Aug 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://0987363.github.io/categories/nfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>nfs远锟教癸拷锟截ｏ拷锟斤拷锟接端匡拷映锟斤拷</title>
+      <link>http://0987363.github.io/linux/NfsRemoteMount/</link>
+      <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://0987363.github.io/linux/NfsRemoteMount/</guid>
+      <description>&lt;p&gt;internet网络挂载nfs的时候，需要添加端口映射到路由器上，&lt;code&gt;111,2049,924,32767&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>nfs杩滅▼鎸傝浇鎶ラ敊锛歄peration not permitted</title>
